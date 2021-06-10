@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #about {
+  width: 100%;
+  height: 100vh;
+} */
+.about_heading {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.about_heading::before {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.about_heading::after {
+  content: "who I am";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.about_img img {
+  border-radius: 50%;
+}
+.about_right .about_span {
+  color: crimson;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about_heading .para_about {
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  #about .about_img img {
+    margin-left: 100px;
+  }
+  #about .about_right {
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 420px) {
+    .about_heading {
+      margin-top: 200px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .about_heading {
+      margin-top: 300px;
+    }
+  }
+  @media screen and (max-width: 340px) {
+    .about_heading {
+      margin-top: 400px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    #about {
+      margin-top: -300px;
+    }
+  } */

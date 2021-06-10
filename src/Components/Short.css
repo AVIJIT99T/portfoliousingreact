@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card_short {
+  background: crimson;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid rgb(255, 239, 93);
+}
+.card_short:hover {
+  transform: scale(1.05);
+  background: #111;
+}
+.card_body {
+  color: #fff;
+}
+.card_body:hover {
+  color: crimson;
+}

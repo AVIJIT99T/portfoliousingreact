@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar_main {
+  background-color: rgb(241, 218, 83);
+}
+
+.navbar_main .nav_heading {
+  font-size: 2rem;
+}
+.navbar_main .nav_heading .heading_span {
+  color: crimson;
+}
+.navbar_main .navbar-ul .nav-link.active {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar_main .navbar-ul .nav-link.active:hover {
+  color: crimson !important;
+  transition: 0.5s;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -24,30 +23,51 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto navbar-ul">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <a
+                  className="nav-link active"
+                  // className="menu_active"
+                  aria-current="page"
+                  href="#home"
+                >
                   Home
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/about">
+                <a
+                  className="nav-link active"
+                  // className="menu_active"
+                  href="#about"
+                >
                   About
-                </NavLink>
+                </a>
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/skills">
+                <a
+                  className="nav-link active"
+                  // className="menu_active"
+                  href="#skills"
+                >
                   Skills
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/projects">
-                  Project
-                </NavLink>
+                <a
+                  className="nav-link active"
+                  // className="menu_active"
+                  href="#projects"
+                >
+                  Projects
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/contact">
+                <a
+                  className="nav-link active"
+                  // className="menu_active"
+                  href="#contact"
+                >
                   Contact
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>

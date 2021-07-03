@@ -38,6 +38,7 @@ const About = () => {
                     a bit of DBMS and SQL as well.Besides my studies I love
                     sports.I love to watch cricket, football, tennis etc.
                   </p>
+                  <a class="btn btn-outline-danger btn_about">Download CV</a>
                 </div>
               </div>
             </div>
@@ -48,4 +49,4 @@ const About = () => {
   );
 };
 
-export default withRouter(About);
+export default About;

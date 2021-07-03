@@ -20,41 +20,57 @@ const Contact = () => {
                   <div className="text_contact">Get in Touch</div>
                   <p>
                     These are my personal Details. If my details fulfill any of
-                    the position's criteria,please contact with me.
+                    the position's criteria,please contact with me.These are my
+                    personal Details. If my details fulfill any of the
+                    position's criteria,please contact with me.These are my
+                    personal Details. If my details fulfill any of the
+                    position's criteria,please contact with me.
                   </p>
 
                   <div className="info_contact">
                     <div className="row">
-                      <div className="icon">
-                        <IoMdContact />
+                      <div className="col-1">
+                        <div className="icon">
+                          <IoMdContact />
+                        </div>
                       </div>
-                      <div className="heading">Name</div>
-
-                      <div className="sub-title">Avijit Karati</div>
+                      <div className="col-11 mt-1 mb-3">
+                        <div className="heading">Name</div>
+                        <div className="sub-title">Avijit Karati</div>
+                      </div>
                     </div>
                     <div className="row">
-                      <div className="icon">
-                        <IoMdContact />
+                      <div className="col-1">
+                        <div className="icon">
+                          <IoMdContact />
+                        </div>
                       </div>
-                      <div className="heading">Email</div>
-
-                      <div className="sub-title">karatiavijit@gmail.com</div>
+                      <div className="col-11 mt-1 mb-3">
+                        <div className="heading">Email</div>
+                        <div className="sub-title">karatiavijit@gmail.com</div>
+                      </div>
                     </div>
                     <div className="row">
-                      <div className="icon">
-                        <IoMdContact />
+                      <div className="col-1">
+                        <div className="icon">
+                          <IoMdContact />
+                        </div>
                       </div>
-                      <div className="heading">Phone</div>
-
-                      <div className="sub-title">8334033467</div>
+                      <div className="col-11 mt-1 mb-3">
+                        <div className="heading">Phone</div>
+                        <div className="sub-title">8334033467</div>
+                      </div>
                     </div>
                     <div className="row">
-                      <div className="icon">
-                        <IoMdContact />
+                      <div className="col-1">
+                        <div className="icon">
+                          <IoMdContact />
+                        </div>
                       </div>
-                      <div className="heading">Address</div>
-
-                      <div className="sub-title">Dasnagar, Howrah</div>
+                      <div className="col-11 mt-1 mb-3">
+                        <div className="heading">Address</div>
+                        <div className="sub-title">Dasnagar, Howrah</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -153,4 +169,4 @@ const Contact = () => {
   );
 };
 
-export default withRouter(Contact);
+export default Contact;

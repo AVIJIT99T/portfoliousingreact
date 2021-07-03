@@ -70,4 +70,4 @@ const Skills = () => {
   );
 };
 
-export default withRouter(Skills);
+export default Skills;

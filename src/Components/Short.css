@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .card_short {
-  background: crimson;
+  background: #111;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid rgb(255, 239, 93);
@@ -17,5 +17,6 @@
   color: #fff;
 }
 .card_body:hover {
-  color: crimson;
+  color: #fff;
+  background: crimson;
 }
